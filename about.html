@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sobre mí</title>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="logo">
+            <img src="assets/logo.svg" alt="Logotipo">
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+
+    <nav id="nav-menu">
+      <div class="menu-close" id="menu-close">✕</div>
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="about.html" class="nav-link">Sobre mí</a>
+      <a class="btn__primary" href="#">Agendar cita</a>
+    </nav>
+
+    </div>
+    </header>
+    <section class="section__about">
+        <div class="grid-3">
+            <div class="card">
+            <img class="avatar" src="assets/Gemini_Generated_Image_mdxjdhmdxjdhmdxj.png" alt="foto0">
+            <h6 class="bold">Sobre mí:</h6>
+            <p>Roger Altamirano Romano</p>
+            <p>No. de cédula: 1234567890</p>
+        <div class="btn__container">
+            <a class="btn__primary" href="#">Agendar cita</a>
+            <a href="#" class="btn__secondary">Whatsapp</a>
+        </div>
+            </div>
+            <div class="card calendar">
+            <!-- Google Calendar Appointment Scheduling begin -->
+            <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3z067QghTH0ZPb1zE-rs3iFqKQWQ1izAT2LQVd2SOFJ7w9z2aV44r0tbUF-cRkHMIzNBfoHbOy?gv=true" style="border: 0" width="100%" height="600px" frameborder="0"></iframe>
+            <!-- end Google Calendar Appointment Scheduling -->
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="card experiencie">
+            <h6 class="bold">Experiencia (2 años)</h6>
+            <p><span class="bold">Descripción breve:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque maiores earum tempore in ad eius facilis vero, debitis eum.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, similique laborum consequuntur fugit ipsam in at, laboriosam voluptatum quo, numquam pariatur suscipit praesentium exercitationem rem veniam ducimus illum necessitatibus repudiandae!</p>
+            <p class="bold">Enfoque terapéutico:</p> 
+            <ul class="list">
+                <li>Cognitivo Conductual</li>
+            </ul>
+            <p class="bold">Enfocado en:</p>
+            <ul class="list">
+                <li>Trastornos de ansiedad</li>
+                <li>Depresión</li>
+            </ul>
+            <p class="bold">Pacientes que atiendo:</p>
+            <ul class="list">
+                <li>Adultos</li>
+                <li>Adolescentes</li>
+            </ul>
+            <p class="bold">Modalidades:</p>
+            <ul class="list">
+                <li>En línea</li>
+                <li>Presencial</li>
+            </ul>
+        </div>
+        <div class="card contact">
+            <div class="contact__container">
+                <h6 class="bold">Consultorio</h6>
+                <ul class="list">
+                    <li>Av Constitución 1235-Oficina 306, Zona Centro, 22000 Tijuana, B.C.</li>
+                </ul>
+                <p><span class="bold">Correo: </span>correo@gmail.com</p>
+                <p><span class="bold">Teléfono: </span>(52)664-1234-567</p>
+            </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.8301028118312!2d-117.0381847!3d32.5306843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d949ac4457be41%3A0xdc8d1da6bc6dee7d!2sCentro%20Neuropsic%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1773546239155!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+        <div class="card">
+            <h6 class="bold">Galería:</h6>
+            <div class="gallery">
+                <img src="assets/Gemini_Generated_Image_dii6vxdii6vxdii6.png" alt="foto1">
+                <img src="assets/Gemini_Generated_Image_dvbwfidvbwfidvbw.png" alt="foto2">
+                <img src="assets/Gemini_Generated_Image_vcczv1vcczv1vccz.png" alt="foto3">
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+<script>
+
+      const menuToggle = document.getElementById("menu-toggle");
+      const navMenu = document.getElementById("nav-menu");
+      const menuClose = document.getElementById("menu-close");
+
+      menuToggle.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+      });
+
+      menuClose.addEventListener("click", () => {
+      navMenu.classList.remove("active");
+      });
+
+    </script>
+</html>
